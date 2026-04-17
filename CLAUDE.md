@@ -1,47 +1,103 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+本文件为 Claude Code (claude.ai/code) 在此仓库中工作时提供指导。
 
-## What This Is
+## 这是什么
 
-MindVault is an **Obsidian vault** — a personal knowledge management system, not a traditional software project. There are no build scripts, package.json, or test commands. The "codebase" is primarily markdown notes and Obsidian plugin configuration.
+MindVault 是一个 **Obsidian 知识库**——一个个人知识管理系统，而非传统软件项目。这里没有构建脚本、package.json 或测试命令。"代码库"主要由 Markdown 笔记和 Obsidian 插件配置组成。
 
-## Interacting With the Vault
+## 与知识库交互
 
-### REST API (Obsidian Local REST API Plugin)
-The vault exposes a REST API on `https://localhost:27124` with API key stored in `.obsidian/plugins/obsidian-local-rest-api/data.json`. This enables programmatic read/write access to notes without going through the file system directly.
+### REST API（Obsidian Local REST API 插件）
+知识库在 `https://localhost:27124` 上暴露了一个 REST API，API 密钥存储于 `.obsidian/plugins/obsidian-local-rest-api/data.json`。这使得无需直接操作文件系统即可对笔记进行编程式读写。
 
-### File System
-Notes are plain `.md` files. The Claudian plugin gives Claude Code full read/write access to vault files — edits made here are immediately reflected in Obsidian.
+### 文件系统
+笔记是纯 `.md` 文件。Claudian 插件赋予 Claude Code 对知识库文件的完整读写权限——在此处的编辑会立即反映到 Obsidian 中。
 
-## Vault Structure
+## 知识库结构
 
-- `工作/` — Work-related notes
-- `学习/` — Learning materials
-- Root `.md` files — Top-level notes and MOCs (Maps of Content)
+- `工作/` — 工作相关笔记
+- `学习/` — 学习资料
+- 根目录 `.md` 文件 — 顶层笔记和内容地图（MOC）
 
-Notes use Obsidian's `[[wikilink]]` syntax for internal linking. The knowledge graph is built from these links.
+笔记使用 Obsidian 的 `[[wikilink]]` 语法进行内部链接，知识图谱由这些链接构成。
 
-## Installed Plugins
+## 已安装插件
 
-| Plugin | Purpose |
-|--------|---------|
-| `claudian` (v1.3.70) | Embeds Claude Code as an AI collaborator in the sidebar |
-| `obsidian-local-rest-api` (v3.5.0) | REST API access to vault on port 27124 |
-| `calendar` (v1.5.10) | Calendar view for daily notes |
+| 插件                               | 用途                                      |
+| ---------------------------------- | ----------------------------------------- |
+| `claudian` (v1.3.70)               | 将 Claude Code 作为 AI 协作者嵌入侧边栏   |
+| `obsidian-local-rest-api` (v3.5.0) | 通过 27124 端口提供知识库的 REST API 访问 |
+| `calendar` (v1.5.10)               | 日记的日历视图                            |
 
-## Architecture
+## 工作说明
 
-This vault uses an **Obsidian plugin architecture**. Plugins live under `.obsidian/plugins/<name>/` and each contains:
-- `main.js` — Compiled plugin code (do not edit directly)
-- `manifest.json` — Plugin metadata and version
-- `data.json` — Plugin-specific settings/state
-- `styles.css` — Optional UI styles
+- 知识库界面使用中文配置，`工作`、`学习` 等目录名称均为有意为之
+- 已启用 Obsidian Sync，更改会同步到其他设备
+- 日记使用 Calendar 插件；如需配置模板路径，请修改 `.obsidian/core-plugins-migration.json`
 
-The `.claude/` directory is structured for future Claude Code extensions (agents, commands, skills) but is currently unused.
+---
 
-## Working Notes
+减少常见 LLM 编码错误的行为准则。根据需要与项目特定指令合并使用。
 
-- The vault interface is configured in Chinese; directory names like `工作` (Work) and `学习` (Learning) are intentional
-- Obsidian Sync is enabled — changes propagate to other devices
-- Daily notes use the Calendar plugin; configure template path in `.obsidian/core-plugins-migration.json` if needed
+**权衡说明：** 这些准则偏向谨慎而非速度。对于简单任务，请自行判断。
+
+## 1. 先思考，再编码
+
+**不猜测。不掩盖困惑。明确表达权衡取舍。**
+
+在实现之前：
+- 明确说明你的假设。如有不确定，直接询问。
+- 若存在多种理解方式，逐一列出——不要悄悄自行选择。
+- 若有更简单的方案，说出来。必要时提出异议。
+- 若有不清楚的地方，停下来。指出困惑所在，然后询问。
+
+## 2. 简洁优先
+
+**用最少的代码解决问题。不写投机性代码。**
+
+- 不添加未被要求的功能。
+- 不为一次性代码做抽象封装。
+- 不添加未被要求的"灵活性"或"可配置性"。
+- 不为不可能发生的场景写错误处理。
+- 如果写了 200 行但 50 行就够用，重写它。
+
+问自己："资深工程师会觉得这过于复杂吗？"如果是，请简化。
+
+## 3. 外科手术式修改
+
+**只改必须改的。只清理自己造成的混乱。**
+
+编辑现有代码时：
+- 不要"顺手改善"相邻代码、注释或格式。
+- 不要重构没有问题的代码。
+- 匹配现有风格，即使你会用不同方式实现。
+- 若发现不相关的死代码，提及它——但不要删除。
+
+当你的改动产生孤立代码时：
+- 移除**因你的改动**而变得无用的 import / 变量 / 函数。
+- 不要删除已存在的死代码，除非被明确要求。
+
+检验标准：每一行改动都应能直接追溯到用户的需求。
+
+## 4. 目标驱动执行
+
+**定义成功标准。循环验证直到完成。**
+
+将任务转化为可验证的目标：
+- "添加校验" → "为无效输入编写测试，然后让测试通过"
+- "修复 Bug" → "编写能复现问题的测试，然后让测试通过"
+- "重构 X" → "确保重构前后测试均通过"
+
+对于多步骤任务，简要说明计划：
+```
+1. [步骤] → 验证：[检查点]
+2. [步骤] → 验证：[检查点]
+3. [步骤] → 验证：[检查点]
+```
+
+清晰的成功标准让你能够独立循环推进；模糊的标准（"让它能用"）则需要不断寻求澄清。
+
+---
+
+**这些准则有效的标志：** diff 中减少不必要的改动、因过度复杂导致的返工减少、以及澄清性问题在实现之前提出而非在出错之后。
