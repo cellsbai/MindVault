@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/周报/2026-05-06.md",
+                "file": "工作/周报/2026-05-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-06"
+              "title": "2026-05-25"
             }
           }
         ]
@@ -204,6 +204,9 @@
   },
   "active": "f58b4734c47ff755",
   "lastOpenFiles": [
+    "工作/周报/2026-05-18.md",
+    "工作/周报/2026-05-25.md",
+    "工作/周报/2026-05-11.md",
     "工作/待处理内容.md",
     "工作/周报/2026-05-06.md",
     "工作/周报/2026-04-27.md",
@@ -236,8 +239,6 @@
     "技术分享/Superpowers/01-设计哲学.md",
     "技术分享/Superpowers/04-核心亮点与金句.md",
     "工作/业务/带训收徒控制.md",
-    "工作/周报/2026-03-30.md",
-    "工作/conventions/skills/zf-component/SKILL.md.md",
-    "工作/conventions/skills/component.md"
+    "工作/周报/2026-03-30.md"
   ]
 }
