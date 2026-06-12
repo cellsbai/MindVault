@@ -3,18 +3,17 @@
   "title": "Format file layout",
   "titleGenerationStatus": "success",
   "createdAt": 1777539642087,
-  "updatedAt": 1777540070015,
-  "lastResponseAt": 1777540070015,
+  "updatedAt": 1781058017821,
+  "lastResponseAt": 1781058017821,
   "sessionId": "6a24e508-87cf-4d3d-9ac7-294d913fc96a",
   "sdkSessionId": "6a24e508-87cf-4d3d-9ac7-294d913fc96a",
-  "currentNote": "工作/钉钉相关/知识库文件下载.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 1183,
-    "cacheReadInputTokens": 20151,
+    "cacheCreationInputTokens": 5425,
+    "cacheReadInputTokens": 25268,
     "contextWindow": 200000,
-    "contextTokens": 21335,
-    "percentage": 11
+    "contextTokens": 30694,
+    "percentage": 15
   }
 }
