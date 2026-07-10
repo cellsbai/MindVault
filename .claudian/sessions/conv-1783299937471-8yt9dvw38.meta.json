@@ -1,0 +1,25 @@
+{
+  "id": "conv-1783299937471-8yt9dvw38",
+  "providerId": "codex",
+  "title": "你能看到什么？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1783299937472,
+  "updatedAt": 1783492481183,
+  "lastResponseAt": 1783492481183,
+  "sessionId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
+  "providerState": {
+    "threadId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
+    "sessionFilePath": "/Users/xiaobai/.codex/sessions/2026/07/06/rollout-2026-07-06T09-05-37-019f34f5-965f-7882-81d0-cd3c64cc2095.jsonl",
+    "transcriptRootPath": "/Users/xiaobai/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 15361,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 14720,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 15361,
+    "percentage": 6,
+    "model": "gpt-5.5"
+  }
+}

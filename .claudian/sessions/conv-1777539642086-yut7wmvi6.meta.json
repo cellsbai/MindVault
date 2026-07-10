@@ -1,0 +1,19 @@
+{
+  "id": "conv-1777539642086-yut7wmvi6",
+  "title": "Format file layout",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777539642087,
+  "updatedAt": 1781602869112,
+  "lastResponseAt": 1781058017821,
+  "sessionId": "6a24e508-87cf-4d3d-9ac7-294d913fc96a",
+  "sdkSessionId": "6a24e508-87cf-4d3d-9ac7-294d913fc96a",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 5425,
+    "cacheReadInputTokens": 25268,
+    "contextWindow": 200000,
+    "contextTokens": 30694,
+    "percentage": 15
+  }
+}

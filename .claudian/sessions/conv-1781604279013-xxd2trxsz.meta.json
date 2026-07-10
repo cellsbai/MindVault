@@ -1,0 +1,19 @@
+{
+  "id": "conv-1781604279013-xxd2trxsz",
+  "title": "规划字符科技知识库目录结构",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781604279024,
+  "updatedAt": 1783299662046,
+  "lastResponseAt": 1782446378618,
+  "sessionId": "678688c1-57ee-456f-98f7-28e5a7e28427",
+  "sdkSessionId": "678688c1-57ee-456f-98f7-28e5a7e28427",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
