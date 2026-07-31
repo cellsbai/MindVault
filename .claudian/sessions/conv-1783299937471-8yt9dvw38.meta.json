@@ -4,8 +4,8 @@
   "title": "你能看到什么？",
   "titleGenerationStatus": "failed",
   "createdAt": 1783299937472,
-  "updatedAt": 1783492481183,
-  "lastResponseAt": 1783492481183,
+  "updatedAt": 1784175126647,
+  "lastResponseAt": 1784175126647,
   "sessionId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
   "providerState": {
     "threadId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/xiaobai/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 15361,
+    "inputTokens": 20485,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 14720,
+    "cacheReadInputTokens": 17792,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 15361,
-    "percentage": 6,
+    "contextTokens": 20485,
+    "percentage": 8,
     "model": "gpt-5.5"
   }
 }
