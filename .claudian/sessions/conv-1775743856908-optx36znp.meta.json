@@ -1,13 +1,15 @@
 {
   "id": "conv-1775743856908-optx36znp",
+  "providerId": "claude",
   "title": "Execute superpowers plan with Copilot",
   "titleGenerationStatus": "success",
   "createdAt": 1775743856910,
-  "updatedAt": 1776426208160,
-  "lastResponseAt": 1775793192321,
+  "lastActivityAt": 1775793192321,
   "sessionId": "d7571727-40b7-44a9-92b6-45cb49e19f75",
-  "sdkSessionId": "d7571727-40b7-44a9-92b6-45cb49e19f75",
-  "currentNote": "技术分享/Superpowers/02-七阶段开发工作流.md",
+  "modelRecoverySource": {
+    "sessionId": "d7571727-40b7-44a9-92b6-45cb49e19f75"
+  },
+  "linkedContentPath": "技术分享/Superpowers/02-七阶段开发工作流.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,

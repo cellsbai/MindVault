@@ -1,13 +1,15 @@
 {
   "id": "conv-1776426233618-8ndyou6ux",
+  "providerId": "claude",
   "title": "Merge LLM coding guidelines with project rules",
   "titleGenerationStatus": "success",
   "createdAt": 1776426233619,
-  "updatedAt": 1783299662044,
-  "lastResponseAt": 1776426455248,
+  "lastActivityAt": 1776426455248,
   "sessionId": "9716ce74-00f3-4813-9aeb-eefd5619bbf9",
-  "sdkSessionId": "9716ce74-00f3-4813-9aeb-eefd5619bbf9",
-  "currentNote": "CLAUDE.md",
+  "modelRecoverySource": {
+    "sessionId": "9716ce74-00f3-4813-9aeb-eefd5619bbf9"
+  },
+  "linkedContentPath": "CLAUDE.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,

@@ -4,22 +4,23 @@
   "title": "你能看到什么？",
   "titleGenerationStatus": "failed",
   "createdAt": 1783299937472,
-  "updatedAt": 1784175126647,
-  "lastResponseAt": 1784175126647,
+  "lastActivityAt": 1790145019247,
   "sessionId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
+  "selectedModel": "gpt-5.5",
   "providerState": {
     "threadId": "019f34f5-965f-7882-81d0-cd3c64cc2095",
     "sessionFilePath": "/Users/xiaobai/.codex/sessions/2026/07/06/rollout-2026-07-06T09-05-37-019f34f5-965f-7882-81d0-cd3c64cc2095.jsonl",
-    "transcriptRootPath": "/Users/xiaobai/.codex/sessions"
+    "transcriptRootPath": "/Users/xiaobai/.codex/sessions",
+    "nativeConversationContextEstablished": true
   },
   "usage": {
-    "inputTokens": 20485,
+    "inputTokens": 153440,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 17792,
+    "cacheReadInputTokens": 148864,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 20485,
-    "percentage": 8,
+    "contextTokens": 153440,
+    "percentage": 59,
     "model": "gpt-5.5"
   }
 }

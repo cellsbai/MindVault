@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b775e8c363f16f",
+        "id": "682743db7943ec97",
         "type": "tabs",
         "children": [
           {
-            "id": "19f06d0d5e696ac0",
+            "id": "09f03884c1b1499f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作/周报/2026-07/2026-07-27.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-07-27"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -177,7 +175,18 @@
             "type": "leaf",
             "state": {
               "type": "claudian-view",
-              "state": {},
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1783299903551-yukm2an",
+                      "conversationId": "conv-1783299937471-8yt9dvw38"
+                    }
+                  ],
+                  "activeTabId": "tab-1783299903551-yukm2an"
+                }
+              },
               "icon": "bot",
               "title": "Claudian"
             }
@@ -187,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5,
+    "width": 473.98828125,
     "collapsed": true
   },
   "left-ribbon": {
@@ -202,45 +211,87 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "19f06d0d5e696ac0",
+  "floating": {
+    "id": "572aadd9eee4c1c5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ebfe663e6826cc4a",
+        "type": "window",
+        "children": [
+          {
+            "id": "9c677c5b6ac89159",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c2aab11a35a613f0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "工作/周报/功能汇总/任务列表2.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "任务列表2"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 520,
+        "y": 142,
+        "width": 1165,
+        "height": 887,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "09f03884c1b1499f",
   "lastOpenFiles": [
-    "工作/周报/功能汇总/租户管理合并.md",
-    "工作/需求/新荣记对接.md",
-    "工作/欠的债/小程序性能优化.md",
-    "工作/欠的债/待处理内容.md",
-    "工作/周报/功能汇总/Service TODO.md",
-    "工作/周报/2026-07/2026-07-27.md",
-    "工作/周报/2026-07/2026-07-20.md",
-    "工作/周报/2026-07/2026-07-13.md",
-    "工作/周报/功能汇总",
-    "工作/周报/2026-05/2026-05-25.md",
-    "工作/周报/2026-05/2026-05-18.md",
-    "工作/周报/2026-05/2026-05-11.md",
-    "工作/周报/2026-05/2026-05-06.md",
-    "工作/周报/2026-06/2026-06-01.md",
-    "工作/周报/2026-06/2026-06-08.md",
-    "工作/周报/2026-06/2026-06-15.md",
-    "工作/周报/2026-06/2026-06-23.md",
-    "工作/周报/2026-06/2026-06-29.md",
-    "工作/周报/2026-07/2026-07-06.md",
-    "工作/需求",
+    "工作/周报/功能汇总/任务列表2.md",
+    "工作/周报/功能汇总/任务列表.md",
+    "工作/周报/2026-09/2026-09-28.md",
+    "工作/周报/2026-09/2026-09-14.md",
+    "工作/需求/Training-App Android 16KB 升级.md",
+    "工作/周报/功能汇总/2026-09-21-task-manager.md",
+    "工作/需求/仪表盘.md",
     "工作/skill/UI-UX式样.md",
-    "工作/skill",
+    "工作/大事件.md",
+    "Pasted image 20260817153812.png",
+    "Pasted image 20260817143039.png",
+    "Clipboard_Screenshot_1786948207.png",
     "CLAUDE.md",
-    "工作/字符/业务/带训收徒控制.md",
-    "工作/命令.md",
-    "工作/第三方",
-    "工作/待处理内容.md",
-    "工作/欠的债",
-    "工作/第三方/钉钉/知识库文件下载.md",
-    "个人/密钥.md",
-    "创建链接.md",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "工作/周报/2026-07",
-    "工作/周报/2026-06",
-    "工作/周报/2026-05",
-    "工作/周报/2026-04",
-    "工作/周报/2026-03"
+    "工作/周报/功能汇总/Service TODO.md",
+    "工作/周报/功能汇总/训练App.md",
+    "工作/周报/功能汇总/菲斯曼七牛迁移.md",
+    "工作/周报/功能汇总/租户管理合并.md",
+    "工作/周报/2026-09/2026-09-07.md",
+    "工作/欠的债/待处理内容.md",
+    "工作/周报/2026-09",
+    "工作/周报/2026-08/2026-08-31.md",
+    "工作/AI/design.md.md",
+    "个人/vibe coding经验.md",
+    "工作/AI",
+    "工作/AI",
+    "个人/密钥.md",
+    "工作/知识库/产品功能.md",
+    "工作/周报/2026-05/2026-05-18.md",
+    "工作/欠的债/小程序性能优化.md",
+    "工作/周报/2026-08/2026-08-24.md",
+    "工作/周报/2026-08/2026-08-17.md",
+    "工作/需求/新荣记果实数据对接.md",
+    "工作/知识库/新荣记果实检测定制",
+    "工作/周报/2026-08",
+    "工作/周报/功能汇总",
+    "工作/需求",
+    "工作/skill",
+    "工作/第三方",
+    "工作/欠的债",
+    "未命名 1.canvas"
   ]
 }

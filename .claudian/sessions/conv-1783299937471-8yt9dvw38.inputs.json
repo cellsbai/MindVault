@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1783299937471-8yt9dvw38",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789960113705-4rnzpcs",
+      "userTurnOrdinal": 14,
+      "state": "accepted",
+      "localMessageId": "msg-1789960113671-gxkc31v",
+      "timestamp": 1789960113671,
+      "rawDisplayText": "你好",
+      "canonicalText": "你好",
+      "images": [],
+      "contentDigest": "815b1925f3db319cfc8ef8cad8a91b3f8b512f630d8f82635cb105e93e666c2a",
+      "providerUserMessageId": "01a0c1ef-d069-7561-897e-b1ecabe51fb1",
+      "providerAssistantMessageId": "01a0c1ef-d069-7561-897e-b1ecabe51fb1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789960193961-cg6w04f",
+      "userTurnOrdinal": 15,
+      "state": "accepted",
+      "localMessageId": "msg-1789960193956-78qeaij",
+      "timestamp": 1789960193956,
+      "rawDisplayText": "查看下我整个文档，然后给我按照合理的方式重新划分下结构与内容",
+      "canonicalText": "查看下我整个文档，然后给我按照合理的方式重新划分下结构与内容",
+      "images": [],
+      "contentDigest": "1d5c71ffb13fc59772b52df5ba60ef60e4f3bfd970997df45451a16efe1c1029",
+      "providerUserMessageId": "01a0c1f1-07b4-76b2-862e-4a8ecbf1cf2f",
+      "providerAssistantMessageId": "01a0c1f1-07b4-76b2-862e-4a8ecbf1cf2f"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790144973730-8gq3lk0",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1790144973696-uqky9il",
+      "timestamp": 1790144973696,
+      "rawDisplayText": "[[工作/周报/功能汇总/任务列表2.md|任务列表2]] 去除这里多余的换航",
+      "canonicalText": "[[工作/周报/功能汇总/任务列表2.md|任务列表2]] 去除这里多余的换航",
+      "images": [],
+      "contentDigest": "172ee785f0046e6a10563d0c4ec50be6a6276a9f87bce8091657dc5f3f8d149d",
+      "providerUserMessageId": "01a0ccf4-9cbf-7493-a71a-dc1b48abc996",
+      "providerAssistantMessageId": "01a0ccf4-8e39-7d00-a5ad-7257fa0989eb"
+    }
+  ]
+}

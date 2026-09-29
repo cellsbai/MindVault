@@ -1,0 +1,1 @@
+先整理出一份design/README.md 用于编写我们要做的功能，纯需求文档 conventions应该有skill
